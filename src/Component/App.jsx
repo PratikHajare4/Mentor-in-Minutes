@@ -1,15 +1,17 @@
 import { useState } from 'react'
+
 import '../App.css'
 import Navbar from './Navbar'
+import RegisterCard from './RegisterCard'
+
 
 function App() {
   
 
   return (
-    
-   <div>
+    <div>
     <Navbar/>
-   
+    <RegisterCard/>
    </div>
    
   )

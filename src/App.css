@@ -1,7 +1,7 @@
 *{
-  background-color: 	#3d4753
-  
-  ;}
+  background-color: 	#F2FFE9
+  ;
+}
 
 .nav{
   color: white;
@@ -18,4 +18,79 @@
   position: fixed;
   overflow: hidden;
 }
+
+.container{
+  display: flex;
+  justify-content: right;
+  margin-top: 60px;
+  margin-right: 80px;
+}
+
+.registerCard{
+  
+  margin-top: 50px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  float:right;
+  border: 1px solid black ;
+  border-radius: 15px;
+  background-color: white;
+  width: 250px;
+  height: 200px;
+  
+}
+
+.regi{
+  background-color: white;
+}
+form h1{
+  margin-left: 30%;
+}
+
+form button {
+  background-color: rgb(206, 245, 217) ;
+  appearance: none;
+ outline: 0;
+ border: 0;
+ /* border: 0.1px solid orangered; */
+ border-radius: 3px;
+ color: #3e8665;
+ width: 100px;
+ margin-left: 80px;
+ box-shadow: 0 4px 8px 0 rgba(3, 1, 1, 0.2);
+ 
+
+}
+form p{
+  background-color: white;
+  margin-left: 120px;
+}
+
+#login{
+  background-color: #9195F6  ;
+  appearance: none;
+ outline: 0;
+ border: 0;
+ /* border: 0.1px solid orangered; */
+ border-radius: 3px;
+ color: #ffffff;
+ width: 100px;
+ margin-left:1010px;
+ margin-top: 0px;
+ padding: 6px;
+ box-shadow: 0 4px 8px 0 rgba(3, 1, 1, 0.2);
+}
+
+#login-p{
+  margin-left:950px;
+ margin-top: 30px;
+}
+
+.logo{
+  width: 150px;
+  height: 50px;
+}
+
+
 
