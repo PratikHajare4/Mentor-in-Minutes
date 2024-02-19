@@ -2,7 +2,10 @@ import { useState } from 'react'
 
 import '../App.css'
 import Navbar from './Navbar'
-import RegisterCard from './RegisterCard'
+import Home from './Home'
+
+
+
 
 
 function App() {
@@ -11,7 +14,9 @@ function App() {
   return (
     <div>
     <Navbar/>
-    <RegisterCard/>
+    <Home/>
+    
+   
    </div>
    
   )
